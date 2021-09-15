@@ -53,7 +53,7 @@ Client requested features as implemented:
 ---
 ### 3. Installation  
 You can download the source code from [my Github repository](https://github.com/Mark33Mark/code-quiz_webAPI) and open the index.html file to review the website inside your selected web browser.  
-Alternatively, the webpage has also been hosted via [URL: trust.watsonised.com](https://trust.watsonised.com)
+Alternatively, the webpage has also been hosted via [URL: trust.watsonised.com](https://quiz.watsonised.com)
 
 ---
 ### 4. Usage  
@@ -72,15 +72,15 @@ For the high scores, I utilised the code from our course for the todo list.  It'
 ### 6. License  
  The works in this repository are subject to:  
 
-[![GitHub](https://img.shields.io/github/license/Mark33Mark/password-generator)](license_MIT.md)
+[![GitHub](https://img.shields.io/github/license/Mark33Mark/code-quiz_webAPI)](docs/license_MIT.md)
 
 ---
 ### 7. Github repo status  
 
-![GitHub top language](https://img.shields.io/github/languages/top/Mark33Mark/password-generator)
-![GitHub language count](https://img.shields.io/github/languages/count/Mark33Mark/password-generator)
-![GitHub last commit](https://img.shields.io/github/last-commit/Mark33Mark/password-generator)
-![GitHub commit checks state](https://img.shields.io/github/checks-status/Mark33Mark/password-generator/7474abc581e92674c2975cb0aabe55b173824d95)
+![GitHub top language](https://img.shields.io/github/languages/top/Mark33Mark/code-quiz_webAPI)
+![GitHub language count](https://img.shields.io/github/languages/count/Mark33Mark/code-quiz_webAPI)
+![GitHub last commit](https://img.shields.io/github/last-commit/Mark33Mark/code-quiz_webAPI)
+![GitHub commit checks state](https://img.shields.io/github/checks-status/Mark33Mark/code-quiz_webAPI/0acf67a6fb3bb26ed8886245f87a7d6cc6f21098)
 
 ---
 ### 8. How to Contribute
@@ -90,7 +90,7 @@ For the high scores, I utilised the code from our course for the todo list.  It'
 
 ---
 ### 9. Tests  
-- Opened only on desktop computer and developer tool's mobile phone emulator used to check responsiveness.  At this stage the app is not displaying correctly on mobile devices.
+- Tested only on desktop computer, which included looking at it in the browser's developer tool's mobile phone emulator.  At this stage the app is not displaying correctly on mobile devices.
 
 ---
 ### 10. Checklist  
@@ -103,7 +103,7 @@ For the high scores, I utilised the code from our course for the todo list.  It'
   * [x]  When all questions are answere or the timer reaches 0, then the game is over.
   * [x]  When the game is over, the quizzer can save their intials / name with their score.
   * [x]  The application resembles the mock-up functionality provided in the homework instructions.
-  * [x]  Deployed at live URL, [website](https://trust.watsonised.com) 
+  * [x]  Deployed at live URL, [website](https://quiz.watsonised.com) 
   * [x]  Application loads with no errors when inspected with Chrome DevTools.
   * [x]  Github repository contains application code [Github location](https://github.com/Mark33Mark/code-quiz_webAPI)
   * [x]  Repository has a unique name; follows best practice for file structure; and naming conventions.
