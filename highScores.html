@@ -1,0 +1,70 @@
+
+  <!-- =======================================================================================================================
+        
+        A HighScore page linked to the Quiz created with JavaScript 
+
+        author:     Mark Watson
+        commenced:  12S-Sep-2021
+
+  ======================================================================================================================== --> 
+  
+  <!-- ▼ Configuration ▼ ------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html lang="en-au"/>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+
+    <title>| Quiz Me | High Scores |</title>
+
+    <link rel="icon" href="img/favicon.ico" />
+    
+    <link rel="stylesheet" type="text/css" href="css/stylesheet-foundation.css" />  <!-- must be 1st in the order of CSS declarations -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  </head>
+
+  <!--▼ The Document Framework ▼---------------------------------------------------------------------------------------------->
+  <body>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+    <main class="hi-scores-content">
+      
+      <div class="hi-scores-card">
+        <h1>👏- High Scores -🏆</h1>
+        <button class="return-to-quiz">
+          <span class="tooltip">Click to do another quiz.</span>
+        </button>
+        <p> 
+          Please add your initials to record your Quiz result. I'll store it for you to admire. <br \>Your data is 
+          available on this computer only, so bragging rights need to be done by a screen grab.  Thanks for playing.
+        </p>
+
+        <form id="hi-scores-form" method="POST">
+          <label for="quizzers-text">Add your initials: </label>
+          <input type="text" placeholder="your initials please..." name="hi-scores-text" id="hi-scores-text" />
+        </form>
+
+        <div class="high-scores-register">
+          <p>High Scores register: 
+            <span id="hi-scores-count">...no high scores stored yet.</span>
+          </p>
+          <ul id="hi-scores-register"></ul>
+        </div>
+    
+      </div>
+    
+    </main>
+
+    <!-- Footer -------------------------------------------------------------------------------------------------------------->
+    <footer id="myFooter">
+      <p class="copyright">© Copyright 2021 Watsonised | All rights reversed.</p>
+    </footer>
+    
+    <!--▼ JavaScript initiators ▼--------------------------------------------------------------------------------------------->
+    <script src="js/highScores.js"></script>
+
+  </body>
+</html>
+

@@ -1,0 +1,107 @@
+
+  <!-- =======================================================================================================================
+        
+        A Quiz Page created with JavaScript 
+
+        author:     Mark Watson
+        commenced:  10-Sep-2021
+
+  ======================================================================================================================== --> 
+  
+  <!-- ▼ Configuration ▼ ------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html lang="en-au"/>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+
+    <title>| Quiz Me |</title>
+  
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title"         content="JavaScript fundamentals Quiz" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:image"         content=" " />
+    <meta property="og:image:width"   content="150" />
+    <meta property="og:image:height"  content="150" />
+    <meta property="og:site_name"     content="Watsonised by Mark Watson"/>
+    <meta property="og:description"   content="A quiz on JavaScript fundamentals where the user 
+                                               is racing against the clock and time penalised for 
+                                               incorrect answers." />
+    
+    <link rel="icon" href="img/ops/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet-foundation.css" />  <!-- must be 1st in the order of CSS declarations -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  </head>
+
+  <!--▼ The Document Framework ▼---------------------------------------------------------------------------------------------->
+  <body>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+    <main class="content">
+      
+      <header class="banner">
+        <a href="./highScores.html" 
+           alt="a linked webpage for the user to input their intials against their score">
+          <div class = "hi-scores-icon"></div>
+        </a>
+        <h1>Quiz - JavaScript Fundamentals</h1>
+          <a href="./highScores.html" 
+             alt="a linked webpage for the user to input their intials against their score">
+          <div class = "hi-scores-icon"></div>
+         </a>
+      </header>
+      
+      <div class="main-quiz-container">
+        <div class="quiz-container">
+          <div id="quiz" onClick="reply_click()"></div>
+        </div>
+        <div id="welcome-message"></div>
+        <div id = "answer-result"></div>
+        <div id="results"></div>
+      </div>
+
+      <button id="start-quiz">Start Quiz</button>
+
+      <div class="time-wrapper">
+        <h3 id = "countdown-banner">time left:</h3>
+        <div id="clockdiv">
+          <div>
+            <span class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div>
+            <span class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "countdown-wrapper" >
+        <div id ="countdownBar">
+          <div id ="countdownIndicator">100%</div>
+        </div>
+      </div>
+    
+    </main>
+
+    <!-- Footer -------------------------------------------------------------------------------------------------------------->
+    <footer id="myFooter">
+      <p class="copyright">© Copyright 2021 Watsonised | All rights reversed.</p>
+    </footer>
+    
+    <!--▼ JavaScript initiators ▼--------------------------------------------------------------------------------------------->
+    <script src="js/quizQuestions.js"></script>
+    <script src="js/main.js"></script>  <!-- main.js has to be loaded here otherwise the 
+                                             questions can not be called by it. -->
+
+
+
+  </body>
+</html>
+
