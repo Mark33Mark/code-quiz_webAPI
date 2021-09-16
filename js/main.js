@@ -227,7 +227,7 @@ Press start when you're ready.</div>`;
    
     if(userSelection === correctAnswer) {
       numCorrect++
-      answerResult.innerHTML = `<span style="font-size:2rem; 
+      answerResult.innerHTML = `<span style="font-size:1.5rem; 
                                              color:green; 
                                              z-index:5;">
                                              ✅ Correct Answer ✅
@@ -235,7 +235,7 @@ Press start when you're ready.</div>`;
       setTimeout(function(){ answerResult.innerHTML = ""; }, 750);
 
     } else {
-      answerResult.innerHTML = `<span style="font-size:2rem; 
+      answerResult.innerHTML = `<span style="font-size:1.5rem; 
                                              color:red; 
                                              font-weight:500; 
                                              z-index:5;">

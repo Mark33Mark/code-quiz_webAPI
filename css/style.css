@@ -141,7 +141,7 @@
 
 #results{
   flex: 0 1 100%;
-  padding: 5rem 0 10rem 0;
+  padding: 0;
 }
 
 #start-quiz {
@@ -177,7 +177,8 @@
  }
 
  .time-wrapper {
-  flex: 0 1 100%; 
+  flex: 1 1 50%; 
+  margin-top: 3rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -432,7 +433,7 @@ button.return-to-quiz:hover {
 
   .answers [type="button"] {
     display: block;
-    
+    font-size: 0.8rem;
     flex: 0 1 100%;
     padding: 0.5rem;
     width: 15rem;
@@ -440,7 +441,7 @@ button.return-to-quiz:hover {
 
   .question{
     flex: 0 1 100%;
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin-bottom: 0.25rem;
   }
 
@@ -450,6 +451,7 @@ button.return-to-quiz:hover {
 
   #answer-result{  
     font-size: 1rem;
+    padding: 4rem 0 1rem 0;
   }
 
   .time-wrapper {
@@ -458,38 +460,45 @@ button.return-to-quiz:hover {
   
   .time-wrapper h3 {
     flex: 0 1 100%;
-    font-size: 1.2rem;
+    font-size: 0.95rem;
+    margin-top: 2.5rem;
   }
 
   #clockdiv{
     flex: 0 1 100%;
     font-family: sans-serif;
-    color: #fff;
-    
+    color: #fff;  
     font-weight: 100;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
   #clockdiv > div{
     flex: 0 1 100%;
     padding: 0.5rem;
+    height: 55%;
+    width: auto;
   }
   
   #clockdiv div > span{
     flex: 0 1 70%;
     padding: 0.75rem;
-    width: 2rem;
-    height: 2rem;
+    width: 50%;
+    height: 15%;
+    font-size: 1rem;
   }
 
   #countdown-banner {
     padding: 1.5rem 0 0 0;
   }
 
+  .seconds{
+    position: relative;
+  }
+
   .smalltext{
     flex: 0 1 100%;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   .countdown-wrapper {
