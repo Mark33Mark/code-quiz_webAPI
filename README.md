@@ -53,7 +53,7 @@ Client requested features as implemented:
 ---
 ### 3. Installation  
 You can download the source code from [my Github repository](https://github.com/Mark33Mark/code-quiz_webAPI) and open the index.html file to review the website inside your selected web browser.  
-Alternatively, the webpage has also been hosted via [URL: trust.watsonised.com](https://quiz.watsonised.com)
+Alternatively, the webpage has also been hosted via [URL: quiz.watsonised.com](https://quiz.watsonised.com)
 
 ---
 ### 4. Usage  
